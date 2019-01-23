@@ -33,6 +33,8 @@
             this.vS2005Theme1 = new WeifenLuo.WinFormsUI.Docking.VS2005Theme();
             this.mainMenu = new System.Windows.Forms.MenuStrip();
             this.mnuFile = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuNew = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuOpen = new System.Windows.Forms.ToolStripMenuItem();
             this.mainToolBar = new System.Windows.Forms.ToolStrip();
             this.mainStatusBar = new System.Windows.Forms.StatusStrip();
             this.vsToolStripExtender1 = new WeifenLuo.WinFormsUI.Docking.VisualStudioToolStripExtender(this.components);
@@ -40,8 +42,6 @@
             this.vS2015DarkTheme1 = new WeifenLuo.WinFormsUI.Docking.VS2015DarkTheme();
             this.vS2015LightTheme1 = new WeifenLuo.WinFormsUI.Docking.VS2015LightTheme();
             this.dockPanel = new WeifenLuo.WinFormsUI.Docking.DockPanel();
-            this.mnuNew = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuOpen = new System.Windows.Forms.ToolStripMenuItem();
             this.tActionList1 = new SWMM.Components.TActionList();
             this.tActionNew = new SWMM.Components.TAction();
             this.tActionOpen = new SWMM.Components.TAction();
@@ -65,8 +65,22 @@
             this.mnuNew,
             this.mnuOpen});
             this.mnuFile.Name = "mnuFile";
-            this.mnuFile.Size = new System.Drawing.Size(39, 21);
-            this.mnuFile.Text = "&File";
+            this.mnuFile.Size = new System.Drawing.Size(58, 21);
+            this.mnuFile.Text = "文件(&F)";
+            // 
+            // mnuNew
+            // 
+            this.tActionList1.SetAction(this.mnuNew, this.tActionNew);
+            this.mnuNew.Name = "mnuNew";
+            this.mnuNew.Size = new System.Drawing.Size(180, 22);
+            this.mnuNew.Text = "新建(&N)";
+            // 
+            // mnuOpen
+            // 
+            this.tActionList1.SetAction(this.mnuOpen, this.tActionOpen);
+            this.mnuOpen.Name = "mnuOpen";
+            this.mnuOpen.Size = new System.Drawing.Size(180, 22);
+            this.mnuOpen.Text = "打开(&O)";
             // 
             // mainToolBar
             // 
@@ -104,20 +118,6 @@
             this.dockPanel.Size = new System.Drawing.Size(627, 324);
             this.dockPanel.TabIndex = 8;
             // 
-            // mnuNew
-            // 
-            this.tActionList1.SetAction(this.mnuNew, this.tActionNew);
-            this.mnuNew.Name = "mnuNew";
-            this.mnuNew.Size = new System.Drawing.Size(108, 22);
-            this.mnuNew.Text = "&New";
-            // 
-            // mnuOpen
-            // 
-            this.tActionList1.SetAction(this.mnuOpen, this.tActionOpen);
-            this.mnuOpen.Name = "mnuOpen";
-            this.mnuOpen.Size = new System.Drawing.Size(108, 22);
-            this.mnuOpen.Text = "&Open";
-            // 
             // tActionList1
             // 
             this.tActionList1.Actions.Add(this.tActionNew);
@@ -126,11 +126,11 @@
             // 
             // tActionNew
             // 
-            this.tActionNew.Text = "&New";
+            this.tActionNew.Text = "新建(&N)";
             // 
             // tActionOpen
             // 
-            this.tActionOpen.Text = "&Open";
+            this.tActionOpen.Text = "打开(&O)";
             this.tActionOpen.Execute += new System.EventHandler(this.tActionOpen_Execute);
             // 
             // FormMain
