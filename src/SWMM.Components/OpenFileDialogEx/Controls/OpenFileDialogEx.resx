@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -112,63 +112,15 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="vS2005Theme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="dlgOpen.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <metadata name="mainMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>159, 17</value>
-  </metadata>
-  <metadata name="tActionList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>527, 55</value>
-  </metadata>
-  <metadata name="tActionNew.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>797, 55</value>
-  </metadata>
-  <metadata name="tActionOpen.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 93</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>108</value>
-  </metadata>
-  <metadata name="mainStatusBar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>389, 17</value>
-  </metadata>
-  <metadata name="mainToolBar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>279, 17</value>
-  </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        AAABAAEAICAQAAAAAADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAgAIAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAwMDAAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
-        AAD///8AAAAAAAAAiIgIiIAAAAAAAAAAAAAAiO7uju7ogAAAAAAAAAAAiO7u7o7u7uiAAAAAAAAAiO7u
-        7u6O7u7u6IAAAAAACO7u7u7uju7u7u7oAAAAAI7u7u7u6Aju7u7u7oAAAACO7u7u7ugI7u7u7u7oAAAI
-        7u7u7u7oAI7u7u7u6AAAju7u7u7ugACO7u7u7u6AAI7u7u7u7oAACO7u7u7ugAju7u7u7ugAAAju7u7u
-        7ugI7u7u7u6IiIiIju7u7u7oCO7u7u7oju7u7oju7u7u6Aju7u7oju7u7u7uiO7u7ugI7u7uiO7u7u7u
-        7uiO7u7oju7oiI7u7u7u7u7uiIju7giIgAju7u7u7u7u7ugAiIgAAAAI7u7u7u7u7u7oAAAAAAAAju7u
-        7u7u7u7u7oAAAAAAAI6IjoiI6IiOiI6AAAAAAAAAAGBmAAAGAGYAAAAAAAAACIiIiAAABoiGiAAAAAAA
-        AI7u7u6AAI7u7u6AAAAAAACO7u7ugACO7u7ugAAAAAAAju7u7oAAju7u7oAAAAAAAAju7u6AAI7u7ugA
-        AAAAAAAI7u7u6Iju7u7oAAAAAAAAAI7u7u7u7u7ugAAAAAAAAAAI7u7u7u7u6AAAAAAAAAAAAI7u7u7u
-        7oAAAAAAAAAAAAAI7u7u7ugAAAAAAAAAAAAAAIiIiIiAAAAAAAD/8If//8AB//8AAH/8AAAf+AAAD/AA
-        gAfwAIAD4ADAA8ABwAHAAeABgAPgAIAAAACAAAAAgAAAAIAAAAAAAAAAhgAAMP4AAD/8AAAf/AAAH//T
-        7P/+A+A//AHAH/wBwB/8AcAf/gHAP/4AAD//AAB//4AA///AAf//4AP///AH/w==
-</value>
-  </data>
-  <metadata name="vsToolStripExtender1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>510, 17</value>
-  </metadata>
-  <metadata name="vS2015BlueTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>20, 55</value>
-  </metadata>
-  <metadata name="vS2015DarkTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>187, 55</value>
-  </metadata>
-  <metadata name="vS2015LightTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>356, 55</value>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>54</value>
   </metadata>
 </root>

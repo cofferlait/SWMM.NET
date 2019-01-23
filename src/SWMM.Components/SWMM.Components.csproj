@@ -51,6 +51,18 @@
     <Compile Include="Attribute\StandardActionAttribute.cs" />
     <Compile Include="Attribute\UpdatablePropertyAttribute.cs" />
     <Compile Include="Design\ActionCollectionEditor.cs" />
+    <Compile Include="OpenFileDialogEx\AuthorAttribute.cs" />
+    <Compile Include="OpenFileDialogEx\Controls\OpenFileDialogEx.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OpenFileDialogEx\Controls\OpenFileDialogEx.Designer.cs" />
+    <Compile Include="OpenFileDialogEx\FormOpenFileDialog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OpenFileDialogEx\FormOpenFileDialog.Designer.cs" />
+    <Compile Include="OpenFileDialogEx\OS\Enums.cs" />
+    <Compile Include="OpenFileDialogEx\OS\structs.cs" />
+    <Compile Include="OpenFileDialogEx\OS\Win32.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TAction.cs">
       <SubType>Component</SubType>
@@ -60,11 +72,16 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="TActionTargetDescriptionInfo.cs" />
+    <Compile Include="TNumEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
     <EmbeddedResource Include="Images\Action.bmp" />
     <EmbeddedResource Include="Images\ActionList.bmp" />
+    <EmbeddedResource Include="OpenFileDialogEx\Controls\OpenFileDialogEx.resx" />
+    <EmbeddedResource Include="OpenFileDialogEx\FormOpenFileDialog.resx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

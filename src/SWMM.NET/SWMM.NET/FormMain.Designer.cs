@@ -32,6 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.vS2005Theme1 = new WeifenLuo.WinFormsUI.Docking.VS2005Theme();
             this.mainMenu = new System.Windows.Forms.MenuStrip();
+            this.mnuFile = new System.Windows.Forms.ToolStripMenuItem();
             this.mainToolBar = new System.Windows.Forms.ToolStrip();
             this.mainStatusBar = new System.Windows.Forms.StatusStrip();
             this.vsToolStripExtender1 = new WeifenLuo.WinFormsUI.Docking.VisualStudioToolStripExtender(this.components);
@@ -39,20 +40,33 @@
             this.vS2015DarkTheme1 = new WeifenLuo.WinFormsUI.Docking.VS2015DarkTheme();
             this.vS2015LightTheme1 = new WeifenLuo.WinFormsUI.Docking.VS2015LightTheme();
             this.dockPanel = new WeifenLuo.WinFormsUI.Docking.DockPanel();
-            this.menuFile = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuNew = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuNew = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuOpen = new System.Windows.Forms.ToolStripMenuItem();
+            this.tActionList1 = new SWMM.Components.TActionList();
+            this.tActionNew = new SWMM.Components.TAction();
+            this.tActionOpen = new SWMM.Components.TAction();
             this.mainMenu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tActionList1)).BeginInit();
             this.SuspendLayout();
             // 
             // mainMenu
             // 
             this.mainMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuFile});
+            this.mnuFile});
             this.mainMenu.Location = new System.Drawing.Point(0, 0);
             this.mainMenu.Name = "mainMenu";
             this.mainMenu.Size = new System.Drawing.Size(627, 25);
             this.mainMenu.TabIndex = 1;
             this.mainMenu.Text = "menuStrip1";
+            // 
+            // mnuFile
+            // 
+            this.mnuFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnuNew,
+            this.mnuOpen});
+            this.mnuFile.Name = "mnuFile";
+            this.mnuFile.Size = new System.Drawing.Size(39, 21);
+            this.mnuFile.Text = "&File";
             // 
             // mainToolBar
             // 
@@ -90,19 +104,34 @@
             this.dockPanel.Size = new System.Drawing.Size(627, 324);
             this.dockPanel.TabIndex = 8;
             // 
-            // menuFile
+            // mnuNew
             // 
-            this.menuFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuNew});
-            this.menuFile.Name = "menuFile";
-            this.menuFile.Size = new System.Drawing.Size(39, 21);
-            this.menuFile.Text = "&File";
+            this.tActionList1.SetAction(this.mnuNew, this.tActionNew);
+            this.mnuNew.Name = "mnuNew";
+            this.mnuNew.Size = new System.Drawing.Size(108, 22);
+            this.mnuNew.Text = "&New";
             // 
-            // menuNew
+            // mnuOpen
             // 
-            this.menuNew.Name = "menuNew";
-            this.menuNew.Size = new System.Drawing.Size(180, 22);
-            this.menuNew.Text = "&New";
+            this.tActionList1.SetAction(this.mnuOpen, this.tActionOpen);
+            this.mnuOpen.Name = "mnuOpen";
+            this.mnuOpen.Size = new System.Drawing.Size(108, 22);
+            this.mnuOpen.Text = "&Open";
+            // 
+            // tActionList1
+            // 
+            this.tActionList1.Actions.Add(this.tActionNew);
+            this.tActionList1.Actions.Add(this.tActionOpen);
+            this.tActionList1.ContainerControl = this;
+            // 
+            // tActionNew
+            // 
+            this.tActionNew.Text = "&New";
+            // 
+            // tActionOpen
+            // 
+            this.tActionOpen.Text = "&Open";
+            this.tActionOpen.Execute += new System.EventHandler(this.tActionOpen_Execute);
             // 
             // FormMain
             // 
@@ -123,6 +152,7 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.mainMenu.ResumeLayout(false);
             this.mainMenu.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tActionList1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -138,8 +168,12 @@
         private WeifenLuo.WinFormsUI.Docking.VS2015DarkTheme vS2015DarkTheme1;
         private WeifenLuo.WinFormsUI.Docking.VS2015LightTheme vS2015LightTheme1;
         private WeifenLuo.WinFormsUI.Docking.DockPanel dockPanel;
-        private System.Windows.Forms.ToolStripMenuItem menuFile;
-        private System.Windows.Forms.ToolStripMenuItem menuNew;
+        private System.Windows.Forms.ToolStripMenuItem mnuFile;
+        private System.Windows.Forms.ToolStripMenuItem mnuNew;
+        private System.Windows.Forms.ToolStripMenuItem mnuOpen;
+        private Components.TActionList tActionList1;
+        private Components.TAction tActionNew;
+        private Components.TAction tActionOpen;
     }
 }
 
